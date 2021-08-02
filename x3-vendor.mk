@@ -91,7 +91,45 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x3/proprietary/system_ext/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfduibcsrcinterface.so \
     vendor/realme/x3/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/realme/x3/proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
-    vendor/realme/x3/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so
+    vendor/realme/x3/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_adsp_loader.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_apr.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_extend.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_extend.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_hdmi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_hdmi.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_machine_msmnile.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_machine_msmnile.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_max98937.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_max98937.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_mbhc.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_mbhc.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_native.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_native.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_pinctrl_wcd.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_pinctrl_wcd.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_platform.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_platform.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_q6.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_q6_notifier.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6_notifier.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_q6_pdr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_q6_pdr.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_stub.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_stub.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_swr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_swr_ctrl.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_tfa98xx-v6.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_tfa98xx-v6.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_usf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_usf.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd934x.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd934x.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd9360.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd9360.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd9xxx.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd9xxx.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd_core.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd_core.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_wcd_spi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wcd_spi.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_wglink.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wglink.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/audio_wsa881x.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/audio_wsa881x.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/modules.alias:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.alias \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/modules.dep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.dep \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/modules.load:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.load \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/modules.softdep:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/modules.softdep \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/mpq-adapter.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/mpq-dmx-hw-plugin.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/msm_11ad_proxy.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/msm_11ad_proxy.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/qca_cld3_wlan.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rdbg.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rmnet_perf.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/rmnet_shs.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/tspp.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/tspp.ko \
+    vendor/realme/x3/proprietary/product/vendor_overlay/30/lib/modules/wil6210.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wil6210.ko
 
 PRODUCT_PACKAGES += \
     PowerOffAlarm \
